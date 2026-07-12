@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'motion/react';
-import { useData } from '../../../../context/DataContext';
+import { useData } from '../../../context/DataContext';
 import { 
   LayoutDashboard, Folder, Award, Code, Briefcase, FileText, 
   MessageSquare, Settings, ExternalLink, LogOut, Lock, Plus, Trash2, Edit2, Save, Image, Edit, Trash, Menu, X
